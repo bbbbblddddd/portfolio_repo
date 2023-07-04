@@ -1,0 +1,19 @@
+{
+  "name": "brianport.nosync",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "locomotive-scroll": "^4.1.4"
+  },
+  "description": ""
+}
