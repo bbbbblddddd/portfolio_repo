@@ -2924,7 +2924,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var scroll = new _locomotiveScroll.default({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
-  multiplier: 1
+  multiplier: 1,
+  mobile: {
+    smooth: true
+  },
+  tablet: {
+    smooth: true
+  }
 });
 },{"locomotive-scroll":"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -2951,7 +2957,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62425" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59967" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

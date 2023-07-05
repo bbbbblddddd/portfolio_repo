@@ -64,3 +64,13 @@ html.has-scroll-smooth {
     [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
       right: auto;
       bottom: 0; }
+
+      @font-face {
+        font-family: 'Gallient';
+        src: url('assets/Gallient.ttf') format('truetype');
+      }
+
+      @font-face {
+        font-family: 'Gils';
+        src: url('assets/gillsans.ttf') format('truetype');
+      }

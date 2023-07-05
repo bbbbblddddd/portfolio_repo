@@ -65,4 +65,14 @@ html.has-scroll-smooth {
       right: auto;
       bottom: 0; }
 
+      @font-face {
+        font-family: 'Gallient';
+        src: url('/Gallient.9d85070b.ttf') format('truetype');
+      }
+
+      @font-face {
+        font-family: 'Gils';
+        src: url('/gillsans.da7802b9.ttf') format('truetype');
+      }
+
 /*# sourceMappingURL=/base.ee376513.css.map */
