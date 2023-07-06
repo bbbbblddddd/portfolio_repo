@@ -23,6 +23,10 @@ section {
 }
 
 
+
+
+
+
 h1 {
     font-size: 6em;
     align-items: center;
@@ -30,13 +34,22 @@ h1 {
     font-weight: 600; /* Increase the font-weight value */
     color: rgb(50, 48, 48);
   }
-  
 
-p {
-    font-size: 4em;
+  h2{
+    font-size: 3em;
     align-items: center;
     font-family: 'Gill Sans', sans-serif;
     font-weight: 600; /* Increase the font-weight value */
+    color: rgb(254, 247, 237);
+
+  }
+  
+
+p {
+    font-size: 2.5em;
+    align-items: center;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 200; /* Increase the font-weight value */
     color: rgb(50, 48, 48);
 }
 
@@ -55,6 +68,7 @@ p {
 
 .brian {
     color: rgb(95, 95, 95);
+    padding-top: 90px;
 }
 
 .content {
@@ -66,16 +80,22 @@ p {
     width: 600px; /* Adjust the width of the image as needed */
     height: auto; /* Maintain the aspect ratio of the image */
     margin-right: -40px; /* Add some space between the image and the paragraph */
+    border-radius: 2%;
   }
   
-  .patter {
+  .patter-right {
+    padding: 160px;
+  }
+
+  .patter-left {
     padding: 80px;
   }
 
   .image_right {
     width: 600px; /* Adjust the width of the image as needed */
     height: auto; /* Maintain the aspect ratio of the image */
-    margin-right: 120px; /* Add some space between the image and the paragraph */
+    margin-right: 40px; /* Add some space between the image and the paragraph */
+    border-radius: 2%;
   }
 
   .software-dev-text {
@@ -84,6 +104,39 @@ p {
     font-size: 6rem;
     /* Add any other font styling properties as needed */
   }
+
+  
+  
+
+//   .section-divider {
+//     position: relative;
+//     background-color: #d2d4c9;
+//     overflow: hidden;
+//   }
+  
+//   .section-divider::before {
+//     content: "";
+//     position: absolute;
+//     bottom: -25%; /* Adjust this value to push the element up */
+//     left: 25px;
+//     right: 25px;
+//     height: 100vh;
+//     background-color: #433d34;
+//     border-radius: 50%;
+//     padding-bottom: 3rem;
+//   }
+  
+
+  .about{
+    font-size: 6rem;
+    font-family: 'Gill Sans', sans-serif;
+    color: white;
+  }
+
+
+
+  
+  
   
   
   
