@@ -22,6 +22,31 @@ section {
     padding: 10em;
 }
 
+.image-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Add margin to create space between the image and the paragraph */
+}
+
+.blurb-text{
+  font-size: 2rem;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+
+}
+
+
+
+
+// section:nth-child(7) {
+//   display: flex;
+//     height: 100vh;
+//     display: grid;
+//     place-content: center;
+//     align-items: center; /* Vertically center the image and paragraph */
+// }
+
 
 
 
@@ -41,6 +66,18 @@ h1 {
     font-family: 'Gill Sans', sans-serif;
     font-weight: 600; /* Increase the font-weight value */
     color: rgb(254, 247, 237);
+  }
+
+  h3{
+    font-size: 3em;
+    align-items: center;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: lighter; /* Increase the font-weight value */
+    color: rgb(69,69,69);
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+
 
   }
   
@@ -52,6 +89,8 @@ p {
     font-weight: 200; /* Increase the font-weight value */
     color: rgb(50, 48, 48);
 }
+
+
 
 .lerp-wrap {
     display: flex;
@@ -69,6 +108,9 @@ p {
 .brian {
     color: rgb(95, 95, 95);
     padding-top: 90px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: lighter;
+
 }
 
 .content {
@@ -105,8 +147,7 @@ p {
     /* Add any other font styling properties as needed */
   }
 
-  
-  
+
 
 //   .section-divider {
 //     position: relative;
@@ -133,8 +174,105 @@ p {
     color: white;
   }
 
+  .project-image {
+    width: 1200px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: grid;
+    justify-content: center;
+  }
+
+  .button-container {
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #fff;
+    background-color: #696969;
+    padding: 10px 30px;
+    border: solid #52535400 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 581ms;
+    transform: translateY(0);
+    align-items: center;
+    text-decoration: none;
+    margin: 0 30px; /* Adjust the margin as needed */
+  }
+  
+  .button:hover {
+    transition: 581ms;
+    padding: 10px 30px;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #696969;
+    border: solid 2px #696969;
+  }
 
 
+  
+
+
+
+
+
+
+  
+
+
+//   @media (max-width: 768px) {
+//     section {
+
+//     }
+  
+//     h1 {
+//       font-size: 4em;
+//     }
+  
+//     h2 {
+//       font-size: 2em;
+//     }
+  
+//     p {
+//       font-size: 1.5em;
+//     }
+  
+//     .image_left,
+//     .image_right {
+//       width: 100%;
+//       margin-right: 0;
+//     }
+  
+//     .patter-right,
+//     .patter-left {
+//       padding: 0px;
+//     }
+  
+//     .software-dev-text {
+//       font-size: 4rem;
+//     }
+
+//     .lerp-wrap span {
+//       font-size:2.5em;
+//       color: rgb(254, 247, 237)
+//   }
+//   .brian {
+//     color: rgb(95, 95, 95);
+//     font-family: 'Gill Sans', sans-serif;
+//     font-weight: lighter;
+//     font-size: 2rem;
+//     padding-bottom: -400px;
+
+// }
+//   }
+
+  
+  
+  
+  
   
   
   
