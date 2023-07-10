@@ -31,6 +31,15 @@ section {
   padding-right: 120px;
 }
 
+.footer-fade {
+  opacity: 0;
+}
+
+.fadein {
+  opacity: 1;
+  transition: opacity 4s;
+}
+
 h1 {
   font-size: 6em;
   align-items: center;
@@ -162,6 +171,32 @@ p {
   background-color: #fff;
   color: #696969;
   border: solid 2px #696969;
+}
+
+.brian-image {
+  width: 600px; /* Adjust the width as needed */
+}
+
+.links {
+  margin-top: 20px; /* Adjust the spacing between the image and the links */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #696969;
+}
+
+.image-and-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pdf-button {
+  display: block;
+  margin-bottom: 10px;
+  color: #696969;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=/main.39afc03c.css.map */
