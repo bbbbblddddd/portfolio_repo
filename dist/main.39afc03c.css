@@ -44,7 +44,7 @@ h1 {
   font-size: 6em;
   align-items: center;
   font-family: "Gill Sans", sans-serif;
-  font-weight: 600; /* Increase the font-weight value */
+  font-weight: 600;
   color: rgb(50, 48, 48);
 }
 
@@ -52,7 +52,7 @@ h2 {
   font-size: 3em;
   align-items: center;
   font-family: "Gill Sans", sans-serif;
-  font-weight: 600; /* Increase the font-weight value */
+  font-weight: 600;
   color: rgb(254, 247, 237);
 }
 
@@ -60,7 +60,7 @@ h3 {
   font-size: 3em;
   align-items: center;
   font-family: "Gill Sans", sans-serif;
-  font-weight: lighter; /* Increase the font-weight value */
+  font-weight: lighter;
   color: rgb(69, 69, 69);
   padding-left: 200px;
   padding-right: 200px;
@@ -71,7 +71,7 @@ p {
   font-size: 2.5em;
   align-items: center;
   font-family: "Gill Sans", sans-serif;
-  font-weight: 200; /* Increase the font-weight value */
+  font-weight: 200;
   color: rgb(50, 48, 48);
 }
 
@@ -90,7 +90,6 @@ p {
 
 .brian {
   color: rgb(95, 95, 95);
-  padding-top: 90px;
   font-family: "Gill Sans", sans-serif;
   font-weight: lighter;
 }
