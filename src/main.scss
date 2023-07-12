@@ -157,27 +157,6 @@ p {
     /* Add any other font styling properties as needed */
   }
 
-
-
-//   .section-divider {
-//     position: relative;
-//     background-color: #d2d4c9;
-//     overflow: hidden;
-//   }
-  
-//   .section-divider::before {
-//     content: "";
-//     position: absolute;
-//     bottom: -25%; /* Adjust this value to push the element up */
-//     left: 25px;
-//     right: 25px;
-//     height: 100vh;
-//     background-color: #433d34;
-//     border-radius: 50%;
-//     padding-bottom: 3rem;
-//   }
-  
-
   .about{
     font-size: 6rem;
     font-family: 'Gill Sans', sans-serif;
@@ -261,54 +240,105 @@ p {
 
   
 
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10em;
+    overflow-x: hidden;
+  }
 
-//   @media (max-width: 768px) {
-//     section {
+  body {
+    margin: 0;
+    padding: 2em;
+    background: linear-gradient(to bottom, #d2d4c9, #d4c9cf);
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
-//     }
-  
-//     h1 {
-//       font-size: 4em;
-//     }
-  
-//     h2 {
-//       font-size: 2em;
-//     }
-  
-//     p {
-//       font-size: 1.5em;
-//     }
-  
-//     .image_left,
-//     .image_right {
-//       width: 100%;
-//       margin-right: 0;
-//     }
-  
-//     .patter-right,
-//     .patter-left {
-//       padding: 0px;
-//     }
-  
-//     .software-dev-text {
-//       font-size: 4rem;
-//     }
+  .lerp-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
 
-//     .lerp-wrap span {
-//       font-size:2.5em;
-//       color: rgb(254, 247, 237)
-//   }
-//   .brian {
-//     color: rgb(95, 95, 95);
-//     font-family: 'Gill Sans', sans-serif;
-//     font-weight: lighter;
-//     font-size: 2rem;
-//     padding-bottom: -400px;
+.lerp-wrap span {
+    display: inline-block;
+    font-size: 2.5rem;
+    color: rgb(254, 247, 237)
+}
 
-// }
-//   }
+
+.brian {
+  color: rgb(95, 95, 95);
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: 1;
+}
+
+h1 {
+  align-items: center;
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: 200;
+  color: rgb(50, 48, 48);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.image_left {
+  max-width: 100%; /* Adjust the width of the image as needed */
+  height: auto; /* Maintain the aspect ratio of the image */
+  margin-right: 40px; /* Add some space between the image and the paragraph */
+  border-radius: 2%;
+}
+
+.patter-right {
+  padding: 0px; /* Adjust the padding as needed */
+  max-width: 100%; /* Adjust the width of the text container */
+}
+
+
+.image_right {
+  width: 65%; /* Adjust the width of the image as needed */
+  height: auto; /* Maintain the aspect ratio of the image */
+  border-radius: 2%;
+  margin: 0px;
+  padding-right: 0px;
+}
+
+.patter_left {
+  padding: 0; /* Adjust the padding as needed */
+  width: auto; /* Adjust the width of the text container */
+  max-width: 600px; /* Adjust the maximum width of the text container */
+  white-space: normal; /* Allow text to wrap to multiple lines */
+}
+
+
+h2{
+  font-size: 1em;
+  align-items: center;
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: 600;
+  color: rgb(254, 247, 237);
+}
+
+p {
+  font-size: 1em;
+  align-items: center;
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: 200;
+  color: rgb(50, 48, 48);
+}
 
   
+}
   
   
   
