@@ -200,7 +200,7 @@ p {
     height: 100vh;
     display: grid;
     place-content: center;
-    padding: 10em;
+    padding: 30em;
   }
   body {
     background: linear-gradient(to bottom, #d2d4c9, #d4c9cf);

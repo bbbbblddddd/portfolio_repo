@@ -1,34 +1,38 @@
 import LocomotiveScroll from 'locomotive-scroll';
 
-const scroll = new LocomotiveScroll({
-  el: document.querySelector("[data-scroll-container]"),
-  smooth: true,
-  multiplier: 1,
+let locoScroll;
 
-  mobile: {
+// Initialize Locomotive Scroll
+function initScroll() {
+  locoScroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
     smooth: true,
-    smoothMobile: true,
-  },
+    multiplier: 1,
+  });
+}
 
-  smartphone: {
-    smooth: true,
-  },
+// Enable or disable Locomotive Scroll based on the device screen size
+function handleScroll() {
+  if (window.innerWidth < 768) {
+    // Disable Locomotive Scroll on mobile devices
+    if (locoScroll) {
+      locoScroll.destroy();
+      locoScroll = null;
+    }
+  } else {
+    // Enable Locomotive Scroll on desktop devices
+    if (!locoScroll) {
+      initScroll();
+    }
+  }
+}
 
-  tablet: {
-    smooth: true,
-  },
-
-
+// Initialize or update Locomotive Scroll on page load
+window.addEventListener('load', () => {
+  handleScroll();
 });
 
-setTimeout(() => {  
-    locoScroll.destroy();
-}, 0);
-setTimeout(() => {  
-    locoScroll.init();
-}, 50);
-setTimeout(() => {  
-    locoScroll.update();
-}, 1000);
-  
-  
+// Reinitialize Locomotive Scroll on window resize
+window.addEventListener('resize', () => {
+  handleScroll();
+});
