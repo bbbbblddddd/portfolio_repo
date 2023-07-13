@@ -223,8 +223,43 @@ p {
       display: grid;
       place-content: center;
       padding: 10em;
-  
     }
+
+    h1 {
+      font-size: 5.5em;
+      align-items: center;
+      font-family: 'Gill Sans', sans-serif;
+      font-weight: 600;
+      color: rgb(50, 48, 48);
+    }
+  
+    h2{
+      font-size: 2.5em;
+      align-items: center;
+      font-family: 'Gill Sans', sans-serif;
+      font-weight: 600;
+      color: rgb(254, 247, 237);
+    }
+  
+    h3{
+      font-size: 2.5em;
+      align-items: center;
+      font-family: 'Gill Sans', sans-serif;
+      font-weight: lighter;
+      color: rgb(69,69,69);
+      padding-left: 200px;
+      padding-right: 200px;
+      text-align: center;
+    }
+    
+  
+  p {
+      font-size: 2em;
+      align-items: center;
+      font-family: 'Gill Sans', sans-serif;
+      font-weight: 200;
+      color: rgb(50, 48, 48);
+  }
 }
 
 
@@ -238,7 +273,7 @@ p {
     display: grid;
     place-content: center;
     padding: 10em;
-    
+  
   }
 
     body {
