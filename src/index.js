@@ -9,6 +9,11 @@ const scroll = new LocomotiveScroll({
     smooth: true,
     smoothMobile: true,
   },
+
+  smartphone: {
+    smooth: true,
+  },
+
   tablet: {
     smooth: true,
   },
