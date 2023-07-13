@@ -208,15 +208,21 @@ p {
 
   
 
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
 
-
-
-
-
-
-
-
-
+    section {
+      display: flex;
+      height: 100vh;
+      display: grid;
+      place-content: center;
+      padding: 15em;
+      padding-bottom: 400px;
+      
+    }
+}
 
 
   
@@ -228,7 +234,7 @@ p {
     height: 100vh;
     display: grid;
     place-content: center;
-    padding: 30em;
+    padding: 10em;
     
   }
 
