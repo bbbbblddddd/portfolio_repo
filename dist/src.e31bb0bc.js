@@ -2922,16 +2922,29 @@ exports.default = _default2;
 var _locomotiveScroll = _interopRequireDefault(require("locomotive-scroll"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var scroll = new _locomotiveScroll.default({
-  el: document.querySelector('[data-scroll-container]'),
+  el: document.querySelector("[data-scroll-container]"),
   smooth: true,
   multiplier: 1,
   mobile: {
+    smooth: true,
+    smoothMobile: true
+  },
+  smartphone: {
     smooth: true
   },
   tablet: {
     smooth: true
   }
 });
+setTimeout(function () {
+  locoScroll.destroy();
+}, 0);
+setTimeout(function () {
+  locoScroll.init();
+}, 50);
+setTimeout(function () {
+  locoScroll.update();
+}, 1000);
 },{"locomotive-scroll":"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -2957,7 +2970,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65248" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52024" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

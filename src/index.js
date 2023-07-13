@@ -1,18 +1,27 @@
 import LocomotiveScroll from 'locomotive-scroll';
 
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
+  el: document.querySelector("[data-scroll-container]"),
+  smooth: true,
+  multiplier: 1,
+
+  mobile: {
     smooth: true,
-    multiplier: 1,
-    mobile: {
-      smooth: true
+    smoothMobile: true,
   },
+
+  smartphone: {
+    smooth: true,
+  },
+
   tablet: {
-      smooth: true
-  }
-  });
-  
-  setTimeout(() => {  
+    smooth: true,
+  },
+
+
+});
+
+setTimeout(() => {  
     locoScroll.destroy();
 }, 0);
 setTimeout(() => {  
