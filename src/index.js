@@ -17,6 +17,18 @@ const scroll = new LocomotiveScroll({
   tablet: {
     smooth: true,
   },
+
+
 });
+
+setTimeout(() => {  
+    locoScroll.destroy();
+}, 0);
+setTimeout(() => {  
+    locoScroll.init();
+}, 50);
+setTimeout(() => {  
+    locoScroll.update();
+}, 1000);
   
   
