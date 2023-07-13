@@ -260,6 +260,10 @@ p {
       font-weight: 200;
       color: rgb(50, 48, 48);
   }
+
+  .brian-image {
+    width: 500px; /* Adjust the width as needed */
+  }
 }
 
 
@@ -291,9 +295,8 @@ p {
     font-weight: 200;
     color: rgb(50, 48, 48);
     width: 350px;
-  
 
-}
+  }
 
 .blurb-text{
   font-size: .90rem;
@@ -420,6 +423,10 @@ p {
   align-items: center;
   text-decoration: none;
   margin: 0 0px; /* Adjust the margin as needed */
+}
+
+.brian-image {
+  width: 400px; /* Adjust the width as needed */
 }
 
 
