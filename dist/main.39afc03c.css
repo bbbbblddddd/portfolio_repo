@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+}
+
 body {
   background: linear-gradient(to bottom, #d2d4c9, #d4c9cf);
   background-attachment: fixed;
