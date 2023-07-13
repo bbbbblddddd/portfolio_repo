@@ -1,24 +1,15 @@
 import LocomotiveScroll from 'locomotive-scroll';
 
 const scroll = new LocomotiveScroll({
-  el: document.querySelector("[data-scroll-container]"),
-  smooth: true,
-  multiplier: 1,
-
-  mobile: {
+    el: document.querySelector('[data-scroll-container]'),
     smooth: true,
-    smoothMobile: true,
+    multiplier: 1,
+    mobile: {
+      smooth: true
   },
-
-  smartphone: {
-    smooth: true,
-  },
-
   tablet: {
-    smooth: true,
-  },
-
-
-});
-
+      smooth: true
+  }
+  });
+  
   
