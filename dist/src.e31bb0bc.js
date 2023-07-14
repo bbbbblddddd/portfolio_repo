@@ -2927,10 +2927,12 @@ var scroll = new _locomotiveScroll.default({
   multiplier: 1,
   mobile: {
     smooth: true,
-    smoothMobile: true
+    smoothMobile: true,
+    multiplier: 5
   },
   smartphone: {
-    smooth: true
+    smooth: true,
+    multiplier: 5
   },
   tablet: {
     smooth: true
@@ -2970,7 +2972,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55922" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56129" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
