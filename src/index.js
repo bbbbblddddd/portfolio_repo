@@ -8,10 +8,12 @@ const scroll = new LocomotiveScroll({
   mobile: {
     smooth: true,
     smoothMobile: true,
+    multiplier: 5,
   },
 
   smartphone: {
     smooth: true,
+    multiplier: 5,
   },
 
   tablet: {
