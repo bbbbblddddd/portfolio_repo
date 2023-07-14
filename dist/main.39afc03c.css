@@ -239,6 +239,7 @@ p {
   }
   .brian-image {
     width: 450px;
+    padding-top: 200px;
   }
 }
 @media (max-width: 768px) {
