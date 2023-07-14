@@ -23,7 +23,7 @@ section {
 .image-center {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px; /* Add margin to create space between the image and the paragraph */
+  margin-bottom: 10px; /* Add margin to create space between the image and the paragraph */
 }
 
 .blurb-text {
@@ -201,7 +201,7 @@ p {
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   section {
     display: flex;
-    height: 115vh;
+    height: 120vh;
     display: grid;
     place-content: center;
     padding: 10em;
@@ -238,7 +238,7 @@ p {
     color: rgb(50, 48, 48);
   }
   .brian-image {
-    width: 450px; /* Adjust the width as needed */
+    width: 450px;
   }
 }
 @media (max-width: 768px) {

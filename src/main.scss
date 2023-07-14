@@ -26,7 +26,7 @@ section {
 .image-center {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px; /* Add margin to create space between the image and the paragraph */
+  margin-bottom: 10px; /* Add margin to create space between the image and the paragraph */
 }
 
 .blurb-text{
@@ -262,8 +262,11 @@ p {
   }
 
   .brian-image {
-    width: 400px; /* Adjust the width as needed */
+    width: 450px;
   }
+
+  
+
 }
 
 
