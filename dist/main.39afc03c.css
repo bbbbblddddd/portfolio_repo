@@ -246,11 +246,6 @@ p {
     display: grid;
     place-content: center;
   }
-  body {
-    background: linear-gradient(to bottom, #d2d4c9 0%, #c9d4d2 20%, #c9d2d4 40%, #d2c9d4 60%, #d4c9d2 80%);
-    background-attachment: fixed;
-    background-size: cover;
-  }
   p {
     display: inline-block;
     font-size: 2.5em;
