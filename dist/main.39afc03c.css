@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-}
-
 body {
   background: #c9cad4;
 }
@@ -29,15 +25,6 @@ section {
   text-align: center;
   padding-left: 120px;
   padding-right: 120px;
-}
-
-.footer-fade {
-  opacity: 0;
-}
-
-.fadein {
-  opacity: 1;
-  transition: opacity 4s;
 }
 
 h1 {
