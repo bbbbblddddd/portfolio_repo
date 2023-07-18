@@ -23,12 +23,12 @@ const scroll = new LocomotiveScroll({
 
 });
 
-setTimeout(() => {  
-    locoScroll.destroy();
-}, 0);
-setTimeout(() => {  
-    locoScroll.init();
-}, 50);
-setTimeout(() => {  
-    locoScroll.update();
-}, 1000);
+// setTimeout(() => {  
+//     locoScroll.destroy();
+// }, 0);
+// setTimeout(() => {  
+//     locoScroll.init();
+// }, 50);
+// setTimeout(() => {  
+//     locoScroll.update();
+// }, 1000);
